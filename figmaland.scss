@@ -1,0 +1,2040 @@
+@import "./Assets/Style/all";
+
+// start main sass
+main{
+    // start startWithFigma sass 
+    #startWithFigma{
+        width: 100%;
+        .startWithFigma{
+            background-image: url(./Assets/Image/bg.png);
+            width: 100%;
+            height:930px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            .container{
+            .startFigmaContent{
+                padding:  200px 171px 0 171px;
+                text-align: center;
+                color: $lightText;
+                h2{
+                    font-size: 64px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 84px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                }
+                p{
+                    font-size: 23px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    margin-top: 6px;
+                    margin-bottom: 58px;
+
+                }
+                a{
+                    @include linkpro;
+                    &:hover{
+                        background-color: #136cbd;
+                        color: $lightText;
+                    }
+                }
+                }
+            }    
+            }
+        }
+
+    // end startWithFigma sass 
+
+    // start features sass 
+    #features{
+        .features{
+            margin-top: 100px;
+            .container{
+                .features-content{
+                    text-align: center;
+                    padding: 0px 267px;
+                h3{
+                    font-size: 48px;
+                    font-weight: 400;
+                    line-height: 55px;
+                    letter-spacing: 0.20000000298023224px;
+                    margin-bottom: 27px;
+                }
+                p{
+                    font-size: 28px;
+                    font-weight: 400;
+                    line-height: 40px;
+                    letter-spacing: 0.20000000298023224px;
+                }
+                }
+                .features-video-resp{
+                    position: relative;
+                    display: none;
+                    figure{
+                        width: 100%;
+                        height: 340px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        }
+
+                    }
+                    .playbutton-resp{
+                        svg{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+                .features-cards{
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 100px;
+                    flex-wrap: wrap;
+                    .fea-cards{
+                        text-align: center;
+                        width: 33%;
+                        padding: 0 65px;
+                        svg{
+                            transition: 0.5s;
+                            &:hover{
+                                transform: rotate(-15deg);
+                            }
+                        }
+                        h3{
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            margin: 25px 0;
+                            line-height: 34px;
+                            letter-spacing: 0.10000000149011612px;
+                        }
+                        p{
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 27px;
+                            letter-spacing: 0.20000000298023224px;
+                        }
+                    }
+                }
+                .features-video{
+                    position: relative;
+                    margin-top: 80px;
+                    figure{
+                        width: 100%;
+                        height:680px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            
+                        
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        }
+                    }
+                    .playbutton{
+                        svg{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // end features sass 
+    
+    // start organization sass
+    #organization{
+        .organization{
+            margin-top: 250px;
+            .container{
+                .organization-full{
+                    @include cent;
+                    flex-wrap: wrap;
+                    .organization-content{
+                        text-align: left;
+                        padding: 0 31px;
+                        width: 50%;
+                        h2{
+                            font-size: 48px;
+                            font-weight: 400;
+                            line-height: 55px;
+                            letter-spacing: 0.20000000298023224px;
+                        }
+                        p{
+                            font-size: 28px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            letter-spacing: 0.20000000298023224px;
+                            margin-bottom: 60px;
+                            margin-top: 22px;
+                        }
+                        a{
+                            @include linkpro;
+                            &:hover{
+                                background-color: #136cbd;
+                                color: $lightText;
+                            }
+                        }
+                    }
+                    .organization-svg{
+                        width: 50%;
+                        svg{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // end organization sass
+
+    // start prototyping sass
+    #prototyping{
+        .prototyping{
+            margin-top: 250px;
+            .container{
+                .prototyping-full{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .prototyping-content-resp{
+                        text-align: center;
+                        display: none;
+                        h4{
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            letter-spacing: 0.10000000149011612px;
+                        }
+                        h2{
+                            font-size: 48px;
+                            font-weight: 400;
+                            line-height: 55px;
+                            letter-spacing: 0.20000000298023224px;
+                            margin:17px 0px 27px 0px; 
+                        }
+                        p{
+                            font-size: 23px;
+                            font-weight: 400;
+                            line-height: 35px;
+                            letter-spacing: 0.20000000298023224px;
+
+                        }
+                    }
+                    .prototyping-svg{
+                        width: 55%;
+                        svg{
+                            width: 100%;
+                        }
+                    }
+                    .prototyping-content{
+                        text-align: left;
+                        padding: 0 31px;
+                        width: 42%;
+                        .prototyping-content-text{
+                            h4{
+                                font-size: 20px;
+                                font-weight: 700;
+                                line-height: 28px;
+                                letter-spacing: 0.10000000149011612px;
+                            }
+                            h2{
+                                font-size: 48px;
+                                font-weight: 400;
+                                line-height: 55px;
+                                letter-spacing: 0.20000000298023224px;
+                            }
+                        }
+                        .prototyping-content-form{
+                            margin-top: 35px;
+                            .form-text{
+                                margin-bottom: 35px;
+                                h4{
+                                    font-size: 20px;
+                                    font-weight: 700;
+                                    line-height: 28px;
+                                    letter-spacing: 0.10000000149011612px;
+                                }
+                                p{
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                    letter-spacing: 0.20000000298023224px;
+                                }
+                            }
+                            form{
+                                .form-input{
+                                    font-family: 'Fira Sans', sans-serif;
+                                    outline: none;
+                                    border-radius: 39px;
+                                    padding:16px 21px;
+                                    background-color: $formbg;
+                                    border: 1px solid $formbord;
+                                }
+                                .form-button{
+                                    font-family: 'Fira Sans', sans-serif;
+                                    color: $lightText;
+                                    border-radius: 35px;
+                                    background-color: $lightBlue;
+                                    padding: 16px 23px;
+                                    cursor: pointer;
+                                    transition: 0.5s;
+                                    
+                            &:hover{
+                                background-color: #136cbd;
+                                color: $lightText;
+                            }
+
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    // end prototyping sass
+
+    // start partners sass
+    #partners{
+        .partners{
+            margin-top: 250px;
+            .container{
+                .partners-full{
+                    .partners-content{
+                        text-align: center;
+                        padding: 0px 267px;
+                        h2{
+                            font-size: 48px;
+                            font-weight: 400;
+                            line-height: 55px;
+                            letter-spacing: 0.20000000298023224px;
+                            margin-bottom: 27px;
+                        }
+                        p{
+                            font-size: 28px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            letter-spacing: 0.20000000298023224px;
+                        }
+                    }
+                    .partners-clients{
+                        margin-top: 100px;
+                        .clients-list{
+                            @include cent;
+                            flex-wrap: wrap;
+                            .clients-list-item{
+                                text-align: center;
+                                width: 25%;
+                                height: 160px;
+                                border: 1px solid $clientbord;
+                                p{
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 23px;
+                                    letter-spacing: 0.10000000149011612px;
+                                    color: $differentText;
+                                    margin-bottom: 7px;
+                                    margin-top: 14px;
+                                }
+                                a{
+                                    img{
+                                        width: 70%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .partners-link{
+                        text-align: center;
+                        margin-top: 80px;
+                        a{
+                            @include linkpro;
+                            &:hover{
+                                background-color: #136cbd;
+                                color: $lightText;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    // end partners sass 
+
+    // start ibm sass 
+    #ibm{
+        .ibm{
+            margin-top: 200px;
+            .container{
+                .ibm-full{
+                    .ibm-content{
+                        text-align: center;
+                        padding: 0 100px;
+
+                        h2{
+                            font-size: 48px;
+                            font-weight: 400;
+                            line-height: 55px;
+                            letter-spacing: 0.20000000298023224px;
+                        }
+                        svg{
+                            margin: 90px 0px 60px 0px;
+                        }
+                        p{
+                            font-size: 28px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            letter-spacing: 0.20000000298023224px;
+                        }
+                    }
+                    .ibm-person{
+                        @include cent;
+                        margin-top: 60px;
+                        .ibm-person-text{
+                            margin-left: 10px;
+                            p{
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 23px;
+                                letter-spacing: 0.10000000149011612px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                    .ibm-link{
+                        text-align: center;
+                        margin-top: 80px;
+                        a{
+                            @include linkpro;
+                            &:hover{
+                                background-color: #136cbd;
+                                color: $lightText;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // end ibm sass 
+
+    // start pricing sass 
+    #pricing{
+        .pricing{
+            background-color: $bgvstext;
+            margin-top: 100px;
+            .container{
+                .pricing-full{
+                    padding: 110px 0px;
+                    .pricing-content{
+                        text-align: center;
+                        padding: 0 140px 90px 140px;
+                        color: $lightText;
+                        h2{
+                            font-size: 48px;
+                            font-weight: 400;
+                            line-height: 55px;
+                            letter-spacing: 0.20000000298023224px;
+                        }
+                        p{
+                            font-size: 28px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            letter-spacing: 0.20000000298023224px;
+                        }
+                    }
+                    .pricing-cards{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        .pricing-card{
+                            width: 30%;
+                            text-align: center;
+                            color: $bgvstext;
+                            background-color: $lightText;
+                            border-radius: 7px;
+                            padding: 43px 28px;
+                            
+                          .card-title{
+                              padding: 0 20px;
+                              h4{
+                                  font-size: 15px;
+                                  font-weight: 700;
+                                  line-height: 24px;
+                                  letter-spacing: 0.10000000149011612px;
+                              }
+                              p{
+                                  font-size: 13px;
+                                  font-weight: 400;
+                                  line-height: 17px;
+                                  letter-spacing: 0.10000000149011612px;
+                              }
+                          }  
+                          .card-dlr{
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+                              margin: 20px 0px;
+                              span{
+                                  font-size: 58px;
+                                  font-weight: 700;
+                                  line-height: 84px;
+                                  letter-spacing: 0.20000000298023224px;
+                              }
+                              .dlr-text{
+                              h4{
+                                text-align: left;
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 23px;
+                                letter-spacing: 0.20000000298023224px;
+                              }
+                              p{
+                                  font-size: 12px;
+                                  font-weight: 400;
+                                  line-height: 23px;
+                                  letter-spacing: 0.10000000149011612px;
+                              }
+                              }
+                          }
+                          .pricing-list{
+                              .pricing-list-item{
+                                margin-bottom: 20px;
+
+                                  a{
+                                      color: $bgvstext;
+                                      font-size: 15px;
+                                      font-weight: 400;
+                                      line-height: 28px;
+                                      letter-spacing: 0.20000000298023224px;
+                                      
+                                  }
+                              }
+                          }
+                          .pricing-link{
+                              margin-top: 40px;
+                              a{
+                                color: $lightText;
+                                border-radius: 35px;
+                                background-color: $lightBlue;
+                                padding: 15px 32px;
+                                transition: 0,5s;
+                                &:hover{
+                                    background-color: #136cbd;
+                                    color: $lightText;
+                                }
+                              }
+                          }
+                        }
+                        .pricing-card2{
+                            background-color: $lightBlue;
+                            color: $lightText;
+                            padding-top: 87px;
+                            height: 620px;
+                            .pricing-list{
+                                .pricing-list-item{
+                                    a{
+                                        color: $lightText;
+                                    }
+                                }
+                            }
+                            .pricing-link{
+                                a{
+                                    background-color: $lightText;
+                                    color: $lightBlue;
+                                    transition: 0,5s;
+                                    &:hover{
+                                        background-color: #136cbd;
+                                        color: $lightText;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // end pricing sass 
+
+    // start contact sass 
+    #contact{
+        .contact{
+            margin-top: 100px;
+            .container{
+                .contact-full{
+                    .contact-content{
+                        text-align: center;
+                        padding: 0 160px 90px 160px;
+                        h2{
+                            font-size: 48px;
+                            font-weight: 400;
+                            line-height: 55px;
+                            letter-spacing: 0.20000000298023224px;
+                            margin-bottom: 27px;
+                        }
+                        p{
+                            font-size: 28px;
+                            font-weight: 400;
+                            line-height: 40px;
+                            letter-spacing: 0.20000000298023224px;
+                        }
+                    }
+                    .contact-us{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: wrap;
+                    .contact-information-head-resp{
+                        display: none;
+                    }
+                    .contact-form{
+                        width: 38%;
+                        form{
+                            width: 100%;
+                           padding: 30px 35px; 
+                           border-radius: 20px;
+                        border: 1px solid #DDDDDD;
+                        @include shadw;
+                        h2{
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 28px;
+                            letter-spacing: 0.10000000149011612px;
+                            text-align: center;
+                        }
+                       
+                            input{
+                                font-family: 'Fira Sans', sans-serif;
+                                background: #F5F5F5;
+                                display: block;
+                                border-radius: 39px;
+                                width: 100%;
+                                height: 51px;
+                                padding-left: 24px;
+                                font-size: 16px;
+                                outline: none;
+                                border: 1px solid $formbord;
+                                margin-top: 35px;
+                            }
+                            textarea{
+                                font-family: 'Fira Sans', sans-serif;
+                                resize: none;
+                                background: #F5F5F5;
+                                border-radius: 0px;
+                                width: 100%;
+                                height: 200px;
+                                padding-left: 24px;
+                                padding-top: 14px;
+                                font-size: 16px;
+                                background: #F5F5F5;
+                                border: 1px solid $formbord;
+                                outline: none;
+                                margin-bottom: 35px;
+                                margin-top: 35px;
+                            }
+                            button{
+                                font-family: 'Fira Sans', sans-serif;
+                                display: block;
+                                color: $lightText;
+                                border-radius: 35px;
+                                background-color: $lightBlue;
+                                padding: 16px 48px;
+                                cursor: pointer;
+                                transition: 0,6s;
+                                &:hover{
+                                    background-color: #136cbd;
+                                    color: $lightText;
+                                }
+                            }
+                        }
+                    }
+                    .contact-information-head{
+                        width: 58%;
+                    .contact-information{
+                        .contact-list{
+                            @include cent;
+                            flex-wrap: wrap;
+                            .contact-list-item{
+                                width: 30%;
+                                text-align: center;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                letter-spacing: 0.10000000149011612px;
+                             a{
+                                 svg{
+                                     &:hover{
+                                        transform: rotate(360deg);
+                                        transition: 1s;
+                                     }
+                                 }
+                             }
+                            }
+                        }
+                    }
+                    .map{
+                        height: 323px;
+                        margin: 36px 0 36px 78px;
+                        width: 80%; 
+                    iframe{
+                        @include cent;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    }
+                    .contact-social{
+                        width: 30%; 
+                        .contact-social-list{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-around;
+                            .contact-social-list-item{
+                                a{
+                                    svg{
+                                        &:hover{
+                                            transform: rotate(360deg);
+                                            transition: 1s;
+                                         }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    }
+                    }
+
+                }
+            }
+        }
+    }
+    // end contact sass 
+}
+// end main sass
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    // start main media
+    main{
+        // start startWithFigma media
+        #startWithFigma{
+            .startWithFigma{
+                height: 700px;
+                .container{
+                    .startFigmaContent{
+                        padding:170px 150px 0 150px;
+                        h2{
+                            font-size: 45px;
+                            line-height: 50px;
+
+                        }
+                        p{
+                            font-size: 19px;
+                            line-height: 30px;
+                            margin-top: 12px;
+                            margin-bottom: 60px;
+                        }
+                        a{
+                            width: 210px;
+                            height: 48px;
+                        }
+                    }
+                }
+            }
+        }
+        // end startWithFigma media
+
+        
+    // start features media 
+        #features{
+        .features{
+            .container{
+                .features-content{
+                    text-align: center;
+                    padding: 0px 181px;
+                h3{
+                    font-size: 45px;
+                    margin-bottom: 17px;
+                }
+                p{
+                    font-size: 27px;
+                    line-height: 40px;
+                }
+                }
+                
+                .features-cards{
+                    justify-content: space-between;
+                    .fea-cards{
+                        width: 30%;
+                        padding: 0 0px;
+                        h3{
+                            font-size: 24px;
+                            margin: 25px 0;
+                            line-height: 34px;
+                        }
+                        p{
+                            font-size: 21px;
+                            line-height: 27px;
+                        }
+                    }
+                }
+                .features-video{
+                    figure{
+                        height: 560px;
+                    }
+                }
+            }
+        }
+        }
+    // end features media 
+    
+    // start organization media
+    #organization{
+        .organization{
+            margin-top: 200px;
+            .container{
+                .organization-full{
+                    .organization-content{
+                        padding: 0 31px;
+                        width: 50%;
+                        h2{
+                            font-size: 38px;
+                            line-height: 44px;
+                        }
+                        p{
+                            font-size: 23px;
+                            line-height: 29px;
+                            margin-bottom: 40px;
+                            margin-top: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // end organization media
+
+    // start prototyping media
+    #prototyping{
+        .prototyping{
+            margin-top: 200px;
+            .container{
+                padding: 0 100px;
+                .prototyping-full{
+                    .prototyping-content{
+                        padding: 0 6px;
+                        .prototyping-content-text{
+                            h4{
+                                font-size: 18px;
+                                line-height: 28px;
+                            }
+                            h2{
+                                font-size: 32px;
+                                line-height: 35px;
+                            }
+                        }
+                        .prototyping-content-form{
+                            margin-top: 30px;
+                            .form-text{
+                                margin-bottom: 30px;
+                                h4{
+                                    font-size: 17px;
+                                    line-height: 24px;
+                                }
+                                p{
+                                    font-size: 16px;
+                                    line-height: 19px;
+                                }
+                            }
+                            form{
+                                .form-input{
+                                    padding:16px 21px;
+                                }
+                                .form-button{
+                                    border-radius: 35px;
+                                    padding: 16px 23px;
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    // end prototyping media
+    
+    // start partners media
+    #partners{
+        .partners{
+            margin-top: 200px;
+            .container{
+                .partners-full{
+                    .partners-content{
+                        text-align: center;
+                        padding: 0px 200px;
+                        h2{
+                            font-size: 45px;
+                            margin-bottom: 17px;
+                        }
+                        p{
+                            font-size: 32px;
+                            line-height: 40px;
+                        }
+                    }
+                    .partners-clients{
+                        .clients-list{
+                            .clients-list-item{
+                                p{
+                                    margin-bottom: 8px;
+                                    margin-top: 21px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    // end partners media 
+
+        // start pricing media 
+        #pricing{
+            .pricing{
+                .container{
+                    .pricing-full{
+                        .pricing-content{
+                            padding: 0 90px 90px 90px;
+                            p{
+                                font-size: 26px;
+                                line-height: 38px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // end pricing media 
+
+        // start contact media 
+        #contact{
+            .contact{
+                .container{
+                    .contact-full{
+                        .contact-us{
+                        .contact-form{
+                            width: 45%;
+                            form{
+                                width: 100%;
+                            @include shadw;
+                            }
+                        }
+                        .contact-information-head{
+                            width: 50%;
+                        .contact-information{
+                            .contact-list{
+                                @include cent;
+                                .contact-list-item{
+                                    font-size: 10px;
+                                    line-height: 15px;
+                                }
+                            }
+                        }
+                        .contact-social{
+                            width: 50%; 
+                        }
+                        }
+                        }
+    
+                    }
+                }
+            }
+        }
+        // end contact media
+    }
+    // end main media
+    
+}
+
+@media only screen and (max-width: 992px){
+    // start main media
+    main{
+        // start startWithFigma media
+        #startWithFigma{
+            .startWithFigma{
+                height: 500px;
+                .container{
+                    .startFigmaContent{
+                        padding:135px 76px 0 76px;
+                        h2{
+                            font-size: 36px;
+                            line-height: 43px;
+
+                        }
+                        p{
+                            font-size: 15px;
+                            line-height: 30px;
+                            margin-top: 6px;
+                            margin-bottom: 32px;
+                        }
+                    }
+                }
+            }
+        }
+        // end startWithFigma media
+        
+        // start features media 
+    #features{
+        .features{
+            margin-top: 80px;
+            .container{
+                .features-content{
+                    padding: 0px 120px;
+                h3{
+                    font-size: 35px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 19px;
+                    line-height: 27px;
+                }
+                }
+                
+                .features-cards{
+                    .fea-cards{
+                        width: 30%;
+                        svg{
+                            width: 40px;
+                        }
+                        h3{
+                            font-size: 17px;
+                            margin: 15px 0;
+                            line-height: 25px;
+                        }
+                        p{
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+                
+                .features-video{
+                    figure{
+                        height: 425px;
+                    }
+                }
+            }
+        }
+    }
+    // end features media 
+     
+    // start organization media
+    #organization{
+        .organization{
+            margin-top: 100px;
+            .container{
+                .organization-full{
+                    .organization-content{
+                        padding: 0 0px;
+                        h2{
+                            font-size: 32px;
+                            line-height: 35px;
+                        }
+                        p{
+                            font-size: 19px;
+                            line-height: 28px;
+                            margin-bottom: 26px;
+                            margin-top: 7px;
+                        }
+                        a{
+                            padding: 10px 25px;
+
+                        }
+                    
+                    }
+                }
+            }
+        }
+    }
+    // end organization media
+    
+    // start prototyping media
+    #prototyping{
+        .prototyping{
+            margin-top: 100px;
+            .container{
+                padding: 0 80px;
+                .prototyping-full{
+                    .prototyping-content{
+                        padding: 0 0px;
+                        .prototyping-content-text{
+                            h4{
+                                font-size: 15px;
+                                line-height: 28px;
+                            }
+                            h2{
+                                font-size: 27px;
+                                line-height: 32px;
+                            }
+                        }
+                        .prototyping-content-form{
+                            margin-top: 20px;
+                            .form-text{
+                                margin-bottom: 20px;
+                                h4{
+                                    font-size: 15px;
+                                    line-height: 22px;
+                                }
+                                p{
+                                    font-size: 14px;
+                                    line-height: 13px;
+                                }
+                            }
+                            form{
+                                .form-input{
+                                    padding:14px 6px;
+                                }
+                                .form-button{
+                                    padding: 14px 7px;
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    // end prototyping media
+    
+    // start partners sass
+    #partners{
+        .partners{
+            margin-top: 100px;
+            .container{
+                .partners-full{
+                    .partners-content{
+                        text-align: center;
+                        padding: 0px 120px;
+                        h2{
+                            font-size: 35px;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            font-size: 19px;
+                            line-height: 27px;
+                        }
+                    }
+                    .partners-clients{
+                        .clients-list{
+                            .clients-list-item{
+                                height: 110px;
+                                p{
+                                    font-size: 12px;
+                                    margin-bottom: 6px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    // end partners sass
+    
+    // start ibm media 
+    #ibm{
+        .ibm{
+            margin-top: 160px;
+            .container{
+                .ibm-full{
+                    .ibm-content{
+                       padding: 0;
+                    }
+                    .ibm-link{
+                        margin-top: 80px;
+                        a{
+                            padding: 16px 62px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // end ibm media
+    
+    // start pricing media 
+    #pricing{
+        .pricing{
+            .container{
+                    padding: 0 100px;
+                    .pricing-full{
+                        .pricing-content{
+                            padding: 0 60px 90px 60px;
+                            h2{
+                                font-size: 38px;
+                                line-height: 55px;
+                            }
+                            p{
+                                font-size: 23px;
+                                line-height: 28px;
+                            }
+                        }
+                        .pricing-cards{
+                            .pricing-card{
+                                width: 31%;
+                                padding: 43px 8px;
+                              .card-title{
+                                  padding: 0 16px;
+                                  h4{
+                                      font-size: 14px;
+                                      line-height: 22px;
+                                  }
+                                  p{
+                                      font-size: 10px;
+                                      line-height: 14px;
+                                  }
+                              }  
+                              .card-dlr{
+                                  margin: 8px 0px;
+                                  span{
+                                      font-size: 50px;
+                                      line-height: 78px;
+                                  }
+                                  .dlr-text{
+                                  h4{
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                  }
+                                  p{
+                                      font-size: 10px;
+                                      line-height: 21px;
+                                  }
+                                  }
+                              }
+                              .pricing-list{
+                                  .pricing-list-item{
+                                    margin-bottom: 10px;
+    
+                                      a{
+                                          font-size: 14px;
+                                          line-height: 22px;
+                                      }
+                                  }
+                              }
+                              .pricing-link{
+                                  margin-top: 40px;
+                                  a{
+                                    color: $lightText;
+                                    border-radius: 35px;
+                                    background-color: $lightBlue;
+                                    padding: 15px 32px;
+                                  }
+                              }
+                            }
+                            .pricing-card2{
+                                background-color: $lightBlue;
+                                color: $lightText;
+                                padding-top: 53px;
+                                height: 456px;
+                                .pricing-list{
+                                    .pricing-list-item{
+                                        a{
+                                            color: $lightText;
+                                        }
+                                    }
+                                }
+                                .pricing-link{
+                                    a{
+                                        background-color: $lightText;
+                                        color: $lightBlue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+        // end pricing media 
+
+        // start contact media 
+    #contact{
+        .contact{
+            .container{
+               .contact-full{
+                   .contact-content{
+                    padding: 0 60px 90px 60px;
+                       h2{
+                           font-size: 38px;
+                           margin-bottom: 10px;
+                       }
+                       p{
+                           font-size: 23px;
+                           line-height: 28px;
+                       }
+                   }
+                   .contact-us{
+                   .contact-form{
+                       width: 38%;
+                       form{
+                          padding: 17px 14px;
+                       h2{
+                           font-size: 17px;
+                       }
+                           input{
+                               background: #F5F5F5;
+                               height: 42px;
+                               margin-top: 18px;
+                           }
+                           textarea{
+                               height: 110px;
+                               margin-bottom: 18px;
+                               margin-top: 18px;
+                           }
+                           button{
+                               padding: 13px 40px;
+                           }
+                       }
+                   }
+                   .contact-information-head{
+                       width: 60%;
+                   .contact-information{
+                       .contact-list{
+                           .contact-list-item{
+                               width: 33%;
+                               font-size: 9px;
+                               line-height: 12px;
+                           }
+                       }
+                   }
+                   .map{
+                       height: 210px;
+                       margin: 25px 0 25px 22px;
+                       width: 96%;
+                   }
+                   .contact-social{
+                       width: 50%; 
+                   }
+                   }
+                   }
+               } 
+            }
+        }
+    }
+        // end contact media 
+    }
+    // end main media
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+    // start main media
+    main{
+    // start startWithFigma media
+    #startWithFigma{
+        .startWithFigma{
+            background-image: url(./Assets/Image/bg-resp.png);
+            height: 1553px;
+            background-size: contain;
+            .container{
+                padding: 0 40px;
+                .startFigmaContent{
+                    padding:321px 40px 0px 40px;;
+                    h2{
+                        font-size: 50px;
+                        font-weight: 400;
+                        line-height: 60px;
+                        letter-spacing: 0.20000000298023224px;
+                        padding: 0px 30px;
+                    }
+                    p{
+                        font-size: 27px;
+                        font-weight: 100;
+                        line-height: 39px;
+                        letter-spacing: 0.20000000298023224px;
+                        margin-top: 50px;
+                        margin-bottom: 80px;
+                    }
+                }
+            }
+        }
+    }
+    // end startWithFigma media
+      // start features media 
+      #features{
+        .features{
+            margin-top: 80px;
+            .container{
+                padding: 0 30px;
+                .features-content{
+                    padding: 0px 100px;
+                h3{
+                    font-size: 36px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+                }
+                .features-video-resp{
+                    display: block;
+                    margin-top: 66px;
+                }
+                .features-cards{
+                    .fea-cards{
+                        width: 100%;
+                        margin-top: 50px;
+                        padding: 0 60px;
+                        svg{
+                            width: 47px;
+                        }
+                        h3{
+                            font-size: 23px;
+                            margin: 15px 0;
+                            line-height: 40px;
+                        }
+                        p{
+                            font-size: 20px;
+                            line-height: 34px;
+                        }
+                    }
+                }
+                
+                .features-video{
+                    display: none;
+                }
+            }
+        }
+    }
+    // end features media
+    
+    // start organization media
+    #organization{
+        .organization{
+            margin-top: 150px;
+            .container{
+                padding: 0 40px;
+                .organization-full{
+                    .organization-content{
+                        width: 100%;
+                        padding: 0 56px;
+                        text-align: center;
+                        h2{
+                            font-size: 45px;
+                            line-height: 54px;
+                        }
+                        p{
+                            font-size: 24px;
+                            line-height: 38px;
+                            margin-bottom: 85px;
+                            margin-top: 27px;
+                        }
+                        a{
+                            padding: 16px 62px;
+
+                        }
+                    
+                    }
+                    .organization-svg{
+                        margin-top: 90px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    // end organization media 
+    
+    // start prototyping media
+    #prototyping{
+        .prototyping{
+            margin-top: 150px;
+            .container{
+                padding: 0 40px;
+                .prototyping-full{
+                    .prototyping-content-resp{
+                        display: block;
+                        width: 100%;
+                    }
+                    .prototyping-svg{
+                        width: 100%;
+                    }
+                    .prototyping-content{
+                        text-align: center;
+                        padding: 0 0px;
+                        width: 100%;
+                        .prototyping-content-text{
+                            display: none;
+                        }
+                        .prototyping-content-form{
+                            margin-top: 95px;
+                            .form-text{
+                                margin-bottom: 20px;
+                                h4{
+                                    font-size: 20px;
+                                    line-height: 28px;
+                                }
+                                p{
+                                    font-size: 18px;
+                                    line-height: 25px;
+                                }
+                            }
+                            form{
+                                .form-input{
+                                    padding:19px 93px;
+                                }
+                                .form-button{
+                                    padding: 17px 145px;
+                                    margin-top: 24px;
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    // end prototyping media
+    
+    // start partners sass
+    #partners{
+        .partners{
+            margin-top: 100px;
+            .container{
+                padding: 0 40px;
+                .partners-full{
+                    .partners-content{
+                        padding: 0px 0px;
+                        h2{
+                            font-size: 36px;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            font-size: 23px;
+                            line-height: 30px;
+                        }
+                    }
+                    .partners-clients{
+                        .clients-list{
+                            .clients-list-item{
+                                width: 100%;
+                                height: 288px;
+                                p{    
+                                    font-size: 20px;
+                                    margin-bottom: 16px;
+                                    margin-top: 34px;
+                                }
+                                a{
+                                    img{
+                                        width: 60%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    // end partners sass
+    
+    // start ibm media 
+    #ibm{
+        .ibm{
+            .container{
+                padding: 0 40px;
+                .ibm-full{
+                    .ibm-content{
+                        h2{
+                            font-size: 34px;
+                            line-height: 47px;
+                        }
+                        svg{
+                            margin: 90px 0px 60px 0px;
+                        }
+                        p{
+                            font-size: 21px;
+                            line-height: 35px;
+                        }
+                    }
+                    .ibm-person{
+                        .ibm-person-text{
+                            p{
+                                font-size: 16px;
+                                line-height: 23px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                    .ibm-link{
+                        a{
+                            padding: 16px 12px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // end ibm media
+    
+    // start pricing media 
+    #pricing{
+        .pricing{
+            .container{
+                    padding: 0 40px;
+                    .pricing-full{
+                        .pricing-content{
+                            padding: 0 0px 90px 0px;
+                        }
+                        .pricing-cards{
+                            .pricing-card{
+                                width: 100%;
+                                padding: 43px 105px;
+                                margin-bottom: 50px;
+                                
+                              .card-title{
+                                  padding: 0 6px;
+                                  h4{
+                                      font-size: 20px;
+                                      line-height: 28px;
+                                  }
+                                  p{
+                                      font-size: 16px;
+                                      line-height: 23px;
+                                  }
+                              }  
+                              .card-dlr{
+                                  margin: 15px 0px;
+                                  span{
+                                      font-size: 74px;
+                                      line-height: 84px;
+                                  }
+                                  .dlr-text{
+                                  h4{
+                                    font-size: 20px;
+                                    line-height: 28px;
+                                  }
+                                  p{
+                                      font-size: 16px;
+                                      line-height: 23px;
+                                  }
+                                  }
+                              }
+                              .pricing-list{
+                                  .pricing-list-item{
+                                      a{
+                                          font-size: 20px;
+                                          line-height: 28px;
+                                      }
+                                  }
+                              }
+                            }
+                            .pricing-card2{
+                                background-color: $lightBlue;
+                                color: $lightText;
+                                height: auto;
+                                .pricing-list-item{
+                                    a{
+                                        color: $lightText;
+                                    }
+                                }
+                                .pricing-link{
+                                    a{
+                                        background-color: $lightText;
+                                        color: $lightBlue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+        // end pricing media 
+        
+        // start contact media 
+    #contact{
+        .contact{
+            .container{
+                padding: 0 40px;
+               .contact-full{
+                   .contact-content{
+                    padding: 0 0 90px 0;
+                       h2{
+                           font-size: 38px;
+                       }
+                       p{
+                           font-size: 23px;
+                           line-height: 28px;
+                       }
+                   }
+                   .contact-us{
+                       
+                    .contact-information-head-resp{
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 70px;
+                    .contact-information{
+                        .contact-list{ 
+                            text-align: left;
+                            .contact-list-item{
+                                display: flex;
+                                align-items: center;
+                                width: 100%;
+                                text-align: left;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 22px;
+                                letter-spacing: 0.10000000149011612px;
+                                margin-bottom: 20px;
+                                p{
+                                margin-left: 15px;
+                                }
+                                a{
+                                    svg{
+                                        &:hover{
+                                           transform: rotate(360deg);
+                                           transition: 1s;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .contact-social{
+                        width: 100%; 
+                        .contact-social-list{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            margin-bottom: 90px;
+                            .contact-social-list-item{
+                                a{
+                                    svg{
+                                        &:hover{
+                                            transform: rotate(360deg);
+                                            transition: 1s;
+                                         }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    }
+                       
+                    .contact-form{
+                        width: 100%;
+                        form{
+                            width: 100%;
+                           padding: 30px 25px; 
+                           border-radius: 20px;
+                        @include shadw;
+                        h2{
+                            font-size: 20px;
+                            line-height: 28px;
+                        }
+                       
+                            input{
+                                height: 51px;
+                                margin-top: 35px;
+                            }
+                            textarea{
+                                height: 200px;
+                                margin-bottom: 35px;
+                                margin-top: 35px;
+                            }
+                            button{
+                                border-radius: 35px;
+                                padding: 16px 48px;
+                            }
+                        }
+                    }
+                       .contact-information-head{
+                           display: none;
+                       }
+                   }
+               } 
+            }
+        }
+    }
+        // end contact media 
+    }
+    // end main media
+
+}
+
+@media only screen and (max-width: 460px){
+    // start main media
+    main{
+        // start startWithFigma media
+        #startWithFigma{
+            .startWithFigma{
+            height: 935px;
+                .container{
+                    padding: 0 40px;
+                    .startFigmaContent{
+                        padding:185px 0px 0px 00px;;
+                        h2{
+                            font-size: 30px;
+                            line-height: 34px;
+                            padding: 0px 30px;
+                        }
+                        p{
+                            font-size: 20px;
+                            line-height: 30px;
+                            margin-top: 40px;
+                            margin-bottom: 80px;
+                        }
+                    }
+                }
+            }
+        }
+        // end startWithFigma media
+         // start features media 
+      #features{
+        .features{
+            margin-top: 80px;
+            .container{
+                padding: 0 40px;
+                .features-content{
+                    padding: 0 40px;
+                h3{
+                    font-size: 40px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 19px;
+                    line-height: 29px;
+                }
+                }
+                
+                .features-video-resp{
+                    height: 240px;
+                }
+                .features-cards{
+                    .fea-cards{
+                        width: 100%;
+                        margin-top: 50px;
+                        padding: 0 40px;
+                        svg{
+                            width: 47px;
+                        }
+                        h3{
+                            font-size: 18px;
+                            margin: 15px 0;
+                            line-height: 28px;
+                        }
+                        p{
+                            font-size: 17px;
+                            line-height: 34px;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    // end features media 
+       
+    // start organization media
+    #organization{
+        .organization{
+            .container{
+                .organization-full{
+                    .organization-content{
+                        padding: 0 30px;
+                        h2{
+                            font-size: 27px;
+                            line-height: 32px;
+                        }
+                        p{
+                            font-size: 19px;
+                            line-height: 29px;
+                            margin-bottom: 70px;
+                            margin-top: 27px;
+                        }
+                        a{
+                            padding: 12px 22px;
+
+                        }
+                    
+                    }
+                    .organization-svg{
+                        margin-top: 20px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    // end organization media 
+    
+    // start prototyping media
+    #prototyping{
+        .prototyping{
+            margin-top: 120px;
+            .container{
+                padding: 0 40px;
+                .prototyping-full{
+                    .prototyping-svg{
+                        margin-top: 20px;
+                        svg{
+                            height: 300px;
+                        }
+                    }
+                    .prototyping-content{
+                        .prototyping-content-form{
+                            .form-text{
+                                h4{
+                                    font-size: 22px;
+                                    line-height: 29px;
+                                }
+                            }
+                            form{
+                                .form-input{
+                                    padding:19px 35px;
+                                }
+                                .form-button{
+                                    padding: 17px 87px;
+                                    margin-top: 24px;
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    // end prototyping media
+    
+    // start partners media
+    #partners{
+        .partners{
+            margin-top: 100px;
+            .container{
+                padding: 0 40px;
+                .partners-full{
+                    .partners-clients{
+                        .clients-list{
+                            .clients-list-item{
+                                width: 100%;
+                                height: 210px;
+                                margin-top: 30px;
+                                p{    
+                                    font-size: 16px;
+                                    margin-bottom: 20px;
+                                    margin-top: 24px;
+                                }
+                                a{
+                                    img{
+                                        width: 60%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+    // end partners media
+    
+    // start pricing media 
+    #pricing{
+        .pricing{
+            .container{
+                    .pricing-full{
+                        .pricing-content{
+                            p{
+                                font-size: 18px;
+                                line-height: 25px;
+                            }
+                        }
+                        .pricing-cards{
+                            .pricing-card{
+                                padding: 43px 0px;
+                              .card-title{
+                                  padding: 0 58px;
+                                  p{
+                                      font-size: 15     px;
+                                  }
+                              }
+                              .pricing-list{
+                                  .pricing-list-item{
+                                      a{
+                                          font-size: 20px;
+                                          line-height: 28px;
+                                      }
+                                  }
+                              }
+                            }
+                            .pricing-card2{
+                                background-color: $lightBlue;
+                                color: $lightText;
+                                // height: 550px;
+                                .pricing-link{
+                                    a{
+                                        background-color: $lightText;
+                                        color: $lightBlue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+            }
+        }
+    }
+        // end pricing media 
+                // start contact media 
+    #contact{
+        .contact{
+            .container{
+                padding: 0 40px;
+               .contact-full{
+                   .contact-content{
+                       p{
+                           font-size: 17px;
+                           line-height: 24px;
+                       }
+                   }
+                }
+            }
+        }
+    }
+    }
+    // end main media
+
+}
+
+// END MEDIA 

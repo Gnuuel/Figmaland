@@ -1,0 +1,2190 @@
+/* html reset  */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.container {
+  padding: 0 150px;
+}
+
+/* html reset  */
+
+/* start header css  */
+header .navigation-bar {
+  position: fixed;
+  width: 100%;
+  height: 135px;
+  position: absolute;
+}
+
+header .navigation-bar .container .navig-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 35px;
+}
+
+header .navigation-bar .container .navig-bar .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navigation-bar .container .navig-bar .navbar nav .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .navigation-bar .container .navig-bar .navbar nav .menu-list .menu-list-item {
+  margin-left: 41px;
+  -webkit-transition: 0,4s;
+  transition: 0,4s;
+}
+
+header .navigation-bar .container .navig-bar .navbar nav .menu-list .menu-list-item a {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+header .navigation-bar .container .navig-bar .navbar nav .menu-list .menu-list-item :hover {
+  color: #2091F9;
+}
+
+header .navigation-bar .container .navig-bar .navbar .logo {
+  margin-left: 45px;
+}
+
+header .navigation-bar .container .navig-bar .navbar .logo .logo-size {
+  width: 186px;
+}
+
+header .navigation-bar .container .navig-bar .navbar .logo .logo-size .logo-img img {
+  width: 100%;
+}
+
+header .navigation-bar .container .navig-bar .social .social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .navigation-bar .container .navig-bar .social .social-list .social-list-item a svg {
+  margin-left: 32px;
+}
+
+header .navigation-bar .container .navig-bar .social .social-list .social-list-item a svg path {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .navigation-bar .container .navig-bar .social .social-list .social-list-item a svg:hover .tvit {
+  fill: #2091F9;
+}
+
+header .navigation-bar .container .navig-bar .social .social-list .social-list-item a svg:hover .fb {
+  fill: #3b5998;
+}
+
+header .navigation-bar .container .navig-bar .social .social-list .social-list-item a svg:hover .linkin {
+  fill: #0a66c2;
+}
+
+header .navigation-bar .container .navig-bar .resp-social {
+  display: none;
+}
+
+header .navigation-bar .container .navig-bar .resp-nav {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  top: 0;
+  display: none;
+}
+
+header .navigation-bar .container .navig-bar .resp-nav .resp-menu-list {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+header .navigation-bar .container .navig-bar .resp-nav .resp-menu-list .resp-menu-list-item {
+  border-bottom: 1px black solid;
+}
+
+header .navigation-bar .container .navig-bar .resp-nav .resp-menu-list .resp-menu-list-item a {
+  font-size: 98px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: #252B42;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  header .navigation-bar .container .navig-bar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .navigation-bar .container .navig-bar .navbar nav .menu-list .menu-list-item {
+    margin-left: 18px;
+  }
+  header .navigation-bar .container .navig-bar .navbar .logo .logo-size {
+    width: 160px;
+  }
+  header .navigation-bar .container .navig-bar .social .social-list .social-list-item svg {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header .navigation-bar .container .navig-bar .navbar nav {
+    display: none;
+  }
+  header .navigation-bar .container .navig-bar .navbar .logo {
+    margin-left: 0;
+  }
+  header .navigation-bar .container .navig-bar .social {
+    display: none;
+  }
+  header .navigation-bar .container .navig-bar .resp-social {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .navigation-bar .container {
+    padding: 0 40px;
+  }
+  header .navigation-bar .container .navig-bar {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .navigation-bar .container .navig-bar .navbar .logo .logo-size {
+    width: 260px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  header .navigation-bar .container .navig-bar .navbar .logo .logo-size {
+    width: 160px;
+  }
+}
+
+/* end header css  */
+
+/* start footer css  */
+
+footer {
+  margin-top: 100px;
+}
+
+footer .footer {
+  background-color: #252B42;
+  color: #FFFFFF;
+}
+
+footer .footer .container .footer-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 160px 0 160px 0;
+}
+
+footer .footer .container .footer-full .footer-card {
+  width: 24%;
+}
+
+footer .footer .container .footer-full .footer-card .footer-list {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+footer .footer .container .footer-full .footer-card .footer-list .footer-list-item {
+  margin-top: 16px;
+}
+
+footer .footer .container .footer-full .footer-card .footer-list .footer-list-item a {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+footer .footer .container .footer-full .footer-card4 {
+  width: 23%;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-information .footer-card-information-list .footer-card-information-list-item {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-information .footer-card-information-list .footer-card-information-list-item a svg:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-information .footer-card-information-list .footer-card-information-list-item p {
+  margin-left: 13px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-social .footer-card-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-social .footer-card-social-list .footer-card-social-list-item a svg path {
+  -webkit-transition: 0,6s;
+  transition: 0,6s;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-social .footer-card-social-list .footer-card-social-list-item a svg:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-social .footer-card-social-list .footer-card-social-list-item a svg:hover .tvit {
+  fill: #2091F9;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-social .footer-card-social-list .footer-card-social-list-item a svg:hover .fb {
+  fill: #3b5998;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-social .footer-card-social-list .footer-card-social-list-item a svg:hover .linkin {
+  fill: #0a66c2;
+}
+
+footer .footer .container .footer-full .footer-card4 .footer-card-social .footer-card-social-list .footer-dif {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  footer .footer .container .footer-full .footer-card {
+    width: 25%;
+  }
+  footer .footer .container .footer-full .footer-card .footer-list {
+    font-size: 18px;
+  }
+  footer .footer .container .footer-full .footer-card .footer-list .footer-list-item {
+    margin-top: 10px;
+  }
+  footer .footer .container .footer-full .footer-card .footer-list .footer-list-item a {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  footer .footer .container .footer-full .footer-card4 {
+    width: 25%;
+  }
+  footer .footer .container .footer-full .footer-card4 .footer-card-information .footer-card-information-list .footer-card-information-list-item p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer .footer .container {
+    padding: 0 60px;
+  }
+  footer .footer .container .footer-full {
+    padding: 100px 0 100px 0;
+  }
+  footer .footer .container .footer-full .footer-card {
+    width: 100%;
+    margin-top: 80px;
+  }
+  footer .footer .container .footer-full .footer-card .footer-list {
+    text-align: center;
+    font-size: 26px;
+  }
+  footer .footer .container .footer-full .footer-card .footer-list .footer-list-item {
+    margin-top: 20px;
+  }
+  footer .footer .container .footer-full .footer-card .footer-list .footer-list-item a {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  footer .footer .container .footer-full .footer-card4 {
+    width: 100%;
+    margin-top: 80px;
+  }
+  footer .footer .container .footer-full .footer-card4 .footer-card-social .footer-card-social-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/* end footer css  */
+
+
+/* start media css  */
+main #startWithFigma {
+  width: 100%;
+}
+
+main #startWithFigma .startWithFigma {
+  background-image: url(./Assets/Image/bg.png);
+  width: 100%;
+  height: 930px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+main #startWithFigma .startWithFigma .container .startFigmaContent {
+  padding: 200px 171px 0 171px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+main #startWithFigma .startWithFigma .container .startFigmaContent h2 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+
+main #startWithFigma .startWithFigma .container .startFigmaContent p {
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 58px;
+}
+
+main #startWithFigma .startWithFigma .container .startFigmaContent a {
+  color: #FFFFFF;
+  border-radius: 35px;
+  background-color: #2091F9;
+  padding: 16px 62px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #startWithFigma .startWithFigma .container .startFigmaContent a:hover {
+  background-color: #136cbd;
+  color: #FFFFFF;
+}
+
+main #features .features {
+  margin-top: 100px;
+}
+
+main #features .features .container .features-content {
+  text-align: center;
+  padding: 0px 267px;
+}
+
+main #features .features .container .features-content h3 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+  margin-bottom: 27px;
+}
+
+main #features .features .container .features-content p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #features .features .container .features-video-resp {
+  position: relative;
+  display: none;
+}
+
+main #features .features .container .features-video-resp figure {
+  width: 100%;
+  height: 340px;
+}
+
+main #features .features .container .features-video-resp figure img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main #features .features .container .features-video-resp .playbutton-resp svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main #features .features .container .features-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 100px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #features .features .container .features-cards .fea-cards {
+  text-align: center;
+  width: 33%;
+  padding: 0 65px;
+}
+
+main #features .features .container .features-cards .fea-cards svg {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #features .features .container .features-cards .fea-cards svg:hover {
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+main #features .features .container .features-cards .fea-cards h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 25px 0;
+  line-height: 34px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+main #features .features .container .features-cards .fea-cards p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #features .features .container .features-video {
+  position: relative;
+  margin-top: 80px;
+}
+
+main #features .features .container .features-video figure {
+  width: 100%;
+  height: 680px;
+}
+
+main #features .features .container .features-video figure img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main #features .features .container .features-video .playbutton svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main #organization .organization {
+  margin-top: 250px;
+}
+
+main #organization .organization .container .organization-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #organization .organization .container .organization-full .organization-content {
+  text-align: left;
+  padding: 0 31px;
+  width: 50%;
+}
+
+main #organization .organization .container .organization-full .organization-content h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #organization .organization .container .organization-full .organization-content p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+  margin-bottom: 60px;
+  margin-top: 22px;
+}
+
+main #organization .organization .container .organization-full .organization-content a {
+  color: #FFFFFF;
+  border-radius: 35px;
+  background-color: #2091F9;
+  padding: 16px 62px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #organization .organization .container .organization-full .organization-content a:hover {
+  background-color: #136cbd;
+  color: #FFFFFF;
+}
+
+main #organization .organization .container .organization-full .organization-svg {
+  width: 50%;
+}
+
+main #organization .organization .container .organization-full .organization-svg svg {
+  width: 100%;
+}
+
+main #prototyping .prototyping {
+  margin-top: 250px;
+}
+
+main #prototyping .prototyping .container .prototyping-full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content-resp {
+  text-align: center;
+  display: none;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content-resp h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content-resp h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+  margin: 17px 0px 27px 0px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content-resp p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-svg {
+  width: 55%;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-svg svg {
+  width: 100%;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content {
+  text-align: left;
+  padding: 0 31px;
+  width: 42%;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-text h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-text h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form {
+  margin-top: 35px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text {
+  margin-bottom: 35px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-input {
+  font-family: 'Fira Sans', sans-serif;
+  outline: none;
+  border-radius: 39px;
+  padding: 16px 21px;
+  background-color: #F4F4F4;
+  border: 1px solid #E8E8E8;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-button {
+  font-family: 'Fira Sans', sans-serif;
+  color: #FFFFFF;
+  border-radius: 35px;
+  background-color: #2091F9;
+  padding: 16px 23px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-button:hover {
+  background-color: #136cbd;
+  color: #FFFFFF;
+}
+
+main #partners .partners {
+  margin-top: 250px;
+}
+
+main #partners .partners .container .partners-full .partners-content {
+  text-align: center;
+  padding: 0px 267px;
+}
+
+main #partners .partners .container .partners-full .partners-content h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+  margin-bottom: 27px;
+}
+
+main #partners .partners .container .partners-full .partners-content p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #partners .partners .container .partners-full .partners-clients {
+  margin-top: 100px;
+}
+
+main #partners .partners .container .partners-full .partners-clients .clients-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item {
+  text-align: center;
+  width: 25%;
+  height: 160px;
+  border: 1px solid #D8D8D8;
+}
+
+main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.10000000149011612px;
+  color: #374754;
+  margin-bottom: 7px;
+  margin-top: 14px;
+}
+
+main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item a img {
+  width: 70%;
+}
+
+main #partners .partners .container .partners-full .partners-link {
+  text-align: center;
+  margin-top: 80px;
+}
+
+main #partners .partners .container .partners-full .partners-link a {
+  color: #FFFFFF;
+  border-radius: 35px;
+  background-color: #2091F9;
+  padding: 16px 62px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #partners .partners .container .partners-full .partners-link a:hover {
+  background-color: #136cbd;
+  color: #FFFFFF;
+}
+
+main #ibm .ibm {
+  margin-top: 200px;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-content {
+  text-align: center;
+  padding: 0 100px;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-content h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-content svg {
+  margin: 90px 0px 60px 0px;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-content p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-person .ibm-person-text {
+  margin-left: 10px;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-person .ibm-person-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-link {
+  text-align: center;
+  margin-top: 80px;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-link a {
+  color: #FFFFFF;
+  border-radius: 35px;
+  background-color: #2091F9;
+  padding: 16px 62px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #ibm .ibm .container .ibm-full .ibm-link a:hover {
+  background-color: #136cbd;
+  color: #FFFFFF;
+}
+
+main #pricing .pricing {
+  background-color: #252B42;
+  margin-top: 100px;
+}
+
+main #pricing .pricing .container .pricing-full {
+  padding: 110px 0px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-content {
+  text-align: center;
+  padding: 0 140px 90px 140px;
+  color: #FFFFFF;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-content h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-content p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card {
+  width: 30%;
+  text-align: center;
+  color: #252B42;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  padding: 43px 28px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title {
+  padding: 0 20px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title h4 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr span {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr .dlr-text h4 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr .dlr-text p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-list .pricing-list-item {
+  margin-bottom: 20px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-list .pricing-list-item a {
+  color: #252B42;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-link {
+  margin-top: 40px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-link a {
+  color: #FFFFFF;
+  border-radius: 35px;
+  background-color: #2091F9;
+  padding: 15px 32px;
+  -webkit-transition: 0,5s;
+  transition: 0,5s;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-link a:hover {
+  background-color: #136cbd;
+  color: #FFFFFF;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 {
+  background-color: #2091F9;
+  color: #FFFFFF;
+  padding-top: 87px;
+  height: 620px;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 .pricing-list .pricing-list-item a {
+  color: #FFFFFF;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 .pricing-link a {
+  background-color: #FFFFFF;
+  color: #2091F9;
+  -webkit-transition: 0,5s;
+  transition: 0,5s;
+}
+
+main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 .pricing-link a:hover {
+  background-color: #136cbd;
+  color: #FFFFFF;
+}
+
+main #contact .contact {
+  margin-top: 100px;
+}
+
+main #contact .contact .container .contact-full .contact-content {
+  text-align: center;
+  padding: 0 160px 90px 160px;
+}
+
+main #contact .contact .container .contact-full .contact-content h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.20000000298023224px;
+  margin-bottom: 27px;
+}
+
+main #contact .contact .container .contact-full .contact-content p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.20000000298023224px;
+}
+
+main #contact .contact .container .contact-full .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head-resp {
+  display: none;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-form {
+  width: 38%;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-form form {
+  width: 100%;
+  padding: 30px 35px;
+  border-radius: 20px;
+  border: 1px solid #DDDDDD;
+  -webkit-box-shadow: 0px 13px 19px 0px #00000012;
+          box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-form form h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-form form input {
+  font-family: 'Fira Sans', sans-serif;
+  background: #F5F5F5;
+  display: block;
+  border-radius: 39px;
+  width: 100%;
+  height: 51px;
+  padding-left: 24px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #E8E8E8;
+  margin-top: 35px;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-form form textarea {
+  font-family: 'Fira Sans', sans-serif;
+  resize: none;
+  background: #F5F5F5;
+  border-radius: 0px;
+  width: 100%;
+  height: 200px;
+  padding-left: 24px;
+  padding-top: 14px;
+  font-size: 16px;
+  background: #F5F5F5;
+  border: 1px solid #E8E8E8;
+  outline: none;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-form form button {
+  font-family: 'Fira Sans', sans-serif;
+  display: block;
+  color: #FFFFFF;
+  border-radius: 35px;
+  background-color: #2091F9;
+  padding: 16px 48px;
+  cursor: pointer;
+  -webkit-transition: 0,6s;
+  transition: 0,6s;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-form form button:hover {
+  background-color: #136cbd;
+  color: #FFFFFF;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head {
+  width: 58%;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-information .contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-information .contact-list .contact-list-item {
+  width: 30%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-information .contact-list .contact-list-item a svg:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head .map {
+  height: 323px;
+  margin: 36px 0 36px 78px;
+  width: 80%;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head .map iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-social {
+  width: 30%;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-social .contact-social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-social .contact-social-list .contact-social-list-item a svg:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media only screen and (max-width: 1200px) {
+  main #startWithFigma .startWithFigma {
+    height: 700px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent {
+    padding: 170px 150px 0 150px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent p {
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 12px;
+    margin-bottom: 60px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent a {
+    width: 210px;
+    height: 48px;
+  }
+  main #features .features .container .features-content {
+    text-align: center;
+    padding: 0px 181px;
+  }
+  main #features .features .container .features-content h3 {
+    font-size: 45px;
+    margin-bottom: 17px;
+  }
+  main #features .features .container .features-content p {
+    font-size: 27px;
+    line-height: 40px;
+  }
+  main #features .features .container .features-cards {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  main #features .features .container .features-cards .fea-cards {
+    width: 30%;
+    padding: 0 0px;
+  }
+  main #features .features .container .features-cards .fea-cards h3 {
+    font-size: 24px;
+    margin: 25px 0;
+    line-height: 34px;
+  }
+  main #features .features .container .features-cards .fea-cards p {
+    font-size: 21px;
+    line-height: 27px;
+  }
+  main #features .features .container .features-video figure {
+    height: 560px;
+  }
+  main #organization .organization {
+    margin-top: 200px;
+  }
+  main #organization .organization .container .organization-full .organization-content {
+    padding: 0 31px;
+    width: 50%;
+  }
+  main #organization .organization .container .organization-full .organization-content h2 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+  main #organization .organization .container .organization-full .organization-content p {
+    font-size: 23px;
+    line-height: 29px;
+    margin-bottom: 40px;
+    margin-top: 22px;
+  }
+  main #prototyping .prototyping {
+    margin-top: 200px;
+  }
+  main #prototyping .prototyping .container {
+    padding: 0 100px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content {
+    padding: 0 6px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-text h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-text h2 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form {
+    margin-top: 30px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text {
+    margin-bottom: 30px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text h4 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-input {
+    padding: 16px 21px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-button {
+    border-radius: 35px;
+    padding: 16px 23px;
+  }
+  main #partners .partners {
+    margin-top: 200px;
+  }
+  main #partners .partners .container .partners-full .partners-content {
+    text-align: center;
+    padding: 0px 200px;
+  }
+  main #partners .partners .container .partners-full .partners-content h2 {
+    font-size: 45px;
+    margin-bottom: 17px;
+  }
+  main #partners .partners .container .partners-full .partners-content p {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item p {
+    margin-bottom: 8px;
+    margin-top: 21px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-content {
+    padding: 0 90px 90px 90px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-content p {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form {
+    width: 45%;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form {
+    width: 100%;
+    -webkit-box-shadow: 0px 13px 19px 0px #00000012;
+            box-shadow: 0px 13px 19px 0px #00000012;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head {
+    width: 50%;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-information .contact-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-information .contact-list .contact-list-item {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-social {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  main #startWithFigma .startWithFigma {
+    height: 500px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent {
+    padding: 135px 76px 0 76px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent h2 {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 6px;
+    margin-bottom: 32px;
+  }
+  main #features .features {
+    margin-top: 80px;
+  }
+  main #features .features .container .features-content {
+    padding: 0px 120px;
+  }
+  main #features .features .container .features-content h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  main #features .features .container .features-content p {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  main #features .features .container .features-cards .fea-cards {
+    width: 30%;
+  }
+  main #features .features .container .features-cards .fea-cards svg {
+    width: 40px;
+  }
+  main #features .features .container .features-cards .fea-cards h3 {
+    font-size: 17px;
+    margin: 15px 0;
+    line-height: 25px;
+  }
+  main #features .features .container .features-cards .fea-cards p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  main #features .features .container .features-video figure {
+    height: 425px;
+  }
+  main #organization .organization {
+    margin-top: 100px;
+  }
+  main #organization .organization .container .organization-full .organization-content {
+    padding: 0 0px;
+  }
+  main #organization .organization .container .organization-full .organization-content h2 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  main #organization .organization .container .organization-full .organization-content p {
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 26px;
+    margin-top: 7px;
+  }
+  main #organization .organization .container .organization-full .organization-content a {
+    padding: 10px 25px;
+  }
+  main #prototyping .prototyping {
+    margin-top: 100px;
+  }
+  main #prototyping .prototyping .container {
+    padding: 0 80px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content {
+    padding: 0 0px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-text h4 {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-text h2 {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form {
+    margin-top: 20px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text {
+    margin-bottom: 20px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text h4 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text p {
+    font-size: 14px;
+    line-height: 13px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-input {
+    padding: 14px 6px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-button {
+    padding: 14px 7px;
+  }
+  main #partners .partners {
+    margin-top: 100px;
+  }
+  main #partners .partners .container .partners-full .partners-content {
+    text-align: center;
+    padding: 0px 120px;
+  }
+  main #partners .partners .container .partners-full .partners-content h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  main #partners .partners .container .partners-full .partners-content p {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item {
+    height: 110px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item p {
+    font-size: 12px;
+    margin-bottom: 6px;
+    margin-top: 5px;
+  }
+  main #ibm .ibm {
+    margin-top: 160px;
+  }
+  main #ibm .ibm .container .ibm-full .ibm-content {
+    padding: 0;
+  }
+  main #ibm .ibm .container .ibm-full .ibm-link {
+    margin-top: 80px;
+  }
+  main #ibm .ibm .container .ibm-full .ibm-link a {
+    padding: 16px 62px;
+  }
+  main #pricing .pricing .container {
+    padding: 0 100px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-content {
+    padding: 0 60px 90px 60px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-content h2 {
+    font-size: 38px;
+    line-height: 55px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-content p {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card {
+    width: 31%;
+    padding: 43px 8px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title {
+    padding: 0 16px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title h4 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr {
+    margin: 8px 0px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr span {
+    font-size: 50px;
+    line-height: 78px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr .dlr-text h4 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr .dlr-text p {
+    font-size: 10px;
+    line-height: 21px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-list .pricing-list-item {
+    margin-bottom: 10px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-list .pricing-list-item a {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-link {
+    margin-top: 40px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-link a {
+    color: #FFFFFF;
+    border-radius: 35px;
+    background-color: #2091F9;
+    padding: 15px 32px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 {
+    background-color: #2091F9;
+    color: #FFFFFF;
+    padding-top: 53px;
+    height: 456px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 .pricing-list .pricing-list-item a {
+    color: #FFFFFF;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 .pricing-link a {
+    background-color: #FFFFFF;
+    color: #2091F9;
+  }
+  main #contact .contact .container .contact-full .contact-content {
+    padding: 0 60px 90px 60px;
+  }
+  main #contact .contact .container .contact-full .contact-content h2 {
+    font-size: 38px;
+    margin-bottom: 10px;
+  }
+  main #contact .contact .container .contact-full .contact-content p {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form {
+    width: 38%;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form {
+    padding: 17px 14px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form h2 {
+    font-size: 17px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form input {
+    background: #F5F5F5;
+    height: 42px;
+    margin-top: 18px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form textarea {
+    height: 110px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form button {
+    padding: 13px 40px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head {
+    width: 60%;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-information .contact-list .contact-list-item {
+    width: 33%;
+    font-size: 9px;
+    line-height: 12px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head .map {
+    height: 210px;
+    margin: 25px 0 25px 22px;
+    width: 96%;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head .contact-social {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main #startWithFigma .startWithFigma {
+    background-image: url(./Assets/Image/bg-resp.png);
+    height: 1553px;
+    background-size: contain;
+  }
+  main #startWithFigma .startWithFigma .container {
+    padding: 0 40px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent {
+    padding: 321px 40px 0px 40px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent h2 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.20000000298023224px;
+    padding: 0px 30px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent p {
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 39px;
+    letter-spacing: 0.20000000298023224px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  main #features .features {
+    margin-top: 80px;
+  }
+  main #features .features .container {
+    padding: 0 30px;
+  }
+  main #features .features .container .features-content {
+    padding: 0px 100px;
+  }
+  main #features .features .container .features-content h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  main #features .features .container .features-content p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  main #features .features .container .features-video-resp {
+    display: block;
+    margin-top: 66px;
+  }
+  main #features .features .container .features-cards .fea-cards {
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 60px;
+  }
+  main #features .features .container .features-cards .fea-cards svg {
+    width: 47px;
+  }
+  main #features .features .container .features-cards .fea-cards h3 {
+    font-size: 23px;
+    margin: 15px 0;
+    line-height: 40px;
+  }
+  main #features .features .container .features-cards .fea-cards p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  main #features .features .container .features-video {
+    display: none;
+  }
+  main #organization .organization {
+    margin-top: 150px;
+  }
+  main #organization .organization .container {
+    padding: 0 40px;
+  }
+  main #organization .organization .container .organization-full .organization-content {
+    width: 100%;
+    padding: 0 56px;
+    text-align: center;
+  }
+  main #organization .organization .container .organization-full .organization-content h2 {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  main #organization .organization .container .organization-full .organization-content p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 85px;
+    margin-top: 27px;
+  }
+  main #organization .organization .container .organization-full .organization-content a {
+    padding: 16px 62px;
+  }
+  main #organization .organization .container .organization-full .organization-svg {
+    margin-top: 90px;
+    width: 100%;
+  }
+  main #prototyping .prototyping {
+    margin-top: 150px;
+  }
+  main #prototyping .prototyping .container {
+    padding: 0 40px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content-resp {
+    display: block;
+    width: 100%;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-svg {
+    width: 100%;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content {
+    text-align: center;
+    padding: 0 0px;
+    width: 100%;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-text {
+    display: none;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form {
+    margin-top: 95px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text {
+    margin-bottom: 20px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-input {
+    padding: 19px 93px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-button {
+    padding: 17px 145px;
+    margin-top: 24px;
+  }
+  main #partners .partners {
+    margin-top: 100px;
+  }
+  main #partners .partners .container {
+    padding: 0 40px;
+  }
+  main #partners .partners .container .partners-full .partners-content {
+    padding: 0px 0px;
+  }
+  main #partners .partners .container .partners-full .partners-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  main #partners .partners .container .partners-full .partners-content p {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item {
+    width: 100%;
+    height: 288px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item p {
+    font-size: 20px;
+    margin-bottom: 16px;
+    margin-top: 34px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item a img {
+    width: 60%;
+  }
+  main #ibm .ibm .container {
+    padding: 0 40px;
+  }
+  main #ibm .ibm .container .ibm-full .ibm-content h2 {
+    font-size: 34px;
+    line-height: 47px;
+  }
+  main #ibm .ibm .container .ibm-full .ibm-content svg {
+    margin: 90px 0px 60px 0px;
+  }
+  main #ibm .ibm .container .ibm-full .ibm-content p {
+    font-size: 21px;
+    line-height: 35px;
+  }
+  main #ibm .ibm .container .ibm-full .ibm-person .ibm-person-text p {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+  }
+  main #ibm .ibm .container .ibm-full .ibm-link a {
+    padding: 16px 12px;
+  }
+  main #pricing .pricing .container {
+    padding: 0 40px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-content {
+    padding: 0 0px 90px 0px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card {
+    width: 100%;
+    padding: 43px 105px;
+    margin-bottom: 50px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title {
+    padding: 0 6px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr {
+    margin: 15px 0px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr span {
+    font-size: 74px;
+    line-height: 84px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr .dlr-text h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-dlr .dlr-text p {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-list .pricing-list-item a {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 {
+    background-color: #2091F9;
+    color: #FFFFFF;
+    height: auto;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 .pricing-list-item a {
+    color: #FFFFFF;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 .pricing-link a {
+    background-color: #FFFFFF;
+    color: #2091F9;
+  }
+  main #contact .contact .container {
+    padding: 0 40px;
+  }
+  main #contact .contact .container .contact-full .contact-content {
+    padding: 0 0 90px 0;
+  }
+  main #contact .contact .container .contact-full .contact-content h2 {
+    font-size: 38px;
+  }
+  main #contact .contact .container .contact-full .contact-content p {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head-resp {
+    display: block;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head-resp .contact-information .contact-list {
+    text-align: left;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head-resp .contact-information .contact-list .contact-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.10000000149011612px;
+    margin-bottom: 20px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head-resp .contact-information .contact-list .contact-list-item p {
+    margin-left: 15px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head-resp .contact-information .contact-list .contact-list-item a svg:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head-resp .contact-social {
+    width: 100%;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head-resp .contact-social .contact-social-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-bottom: 90px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head-resp .contact-social .contact-social-list .contact-social-list-item a svg:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form {
+    width: 100%;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form {
+    width: 100%;
+    padding: 30px 25px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 13px 19px 0px #00000012;
+            box-shadow: 0px 13px 19px 0px #00000012;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form input {
+    height: 51px;
+    margin-top: 35px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form textarea {
+    height: 200px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-form form button {
+    border-radius: 35px;
+    padding: 16px 48px;
+  }
+  main #contact .contact .container .contact-full .contact-us .contact-information-head {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  main #startWithFigma .startWithFigma {
+    height: 935px;
+  }
+  main #startWithFigma .startWithFigma .container {
+    padding: 0 40px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent {
+    padding: 185px 0px 0px 00px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent h2 {
+    font-size: 30px;
+    line-height: 34px;
+    padding: 0px 30px;
+  }
+  main #startWithFigma .startWithFigma .container .startFigmaContent p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  main #features .features {
+    margin-top: 80px;
+  }
+  main #features .features .container {
+    padding: 0 40px;
+  }
+  main #features .features .container .features-content {
+    padding: 0 40px;
+  }
+  main #features .features .container .features-content h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  main #features .features .container .features-content p {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  main #features .features .container .features-video-resp {
+    height: 240px;
+  }
+  main #features .features .container .features-cards .fea-cards {
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 40px;
+  }
+  main #features .features .container .features-cards .fea-cards svg {
+    width: 47px;
+  }
+  main #features .features .container .features-cards .fea-cards h3 {
+    font-size: 18px;
+    margin: 15px 0;
+    line-height: 28px;
+  }
+  main #features .features .container .features-cards .fea-cards p {
+    font-size: 17px;
+    line-height: 34px;
+  }
+  main #organization .organization .container .organization-full .organization-content {
+    padding: 0 30px;
+  }
+  main #organization .organization .container .organization-full .organization-content h2 {
+    font-size: 27px;
+    line-height: 32px;
+  }
+  main #organization .organization .container .organization-full .organization-content p {
+    font-size: 19px;
+    line-height: 29px;
+    margin-bottom: 70px;
+    margin-top: 27px;
+  }
+  main #organization .organization .container .organization-full .organization-content a {
+    padding: 12px 22px;
+  }
+  main #organization .organization .container .organization-full .organization-svg {
+    margin-top: 20px;
+    width: 100%;
+  }
+  main #prototyping .prototyping {
+    margin-top: 120px;
+  }
+  main #prototyping .prototyping .container {
+    padding: 0 40px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-svg {
+    margin-top: 20px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-svg svg {
+    height: 300px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form .form-text h4 {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-input {
+    padding: 19px 35px;
+  }
+  main #prototyping .prototyping .container .prototyping-full .prototyping-content .prototyping-content-form form .form-button {
+    padding: 17px 87px;
+    margin-top: 24px;
+  }
+  main #partners .partners {
+    margin-top: 100px;
+  }
+  main #partners .partners .container {
+    padding: 0 40px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item {
+    width: 100%;
+    height: 210px;
+    margin-top: 30px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 24px;
+  }
+  main #partners .partners .container .partners-full .partners-clients .clients-list .clients-list-item a img {
+    width: 60%;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-content p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card {
+    padding: 43px 0px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title {
+    padding: 0 58px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .card-title p {
+    font-size: 15     px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card .pricing-list .pricing-list-item a {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 {
+    background-color: #2091F9;
+    color: #FFFFFF;
+  }
+  main #pricing .pricing .container .pricing-full .pricing-cards .pricing-card2 .pricing-link a {
+    background-color: #FFFFFF;
+    color: #2091F9;
+  }
+  main #contact .contact .container {
+    padding: 0 40px;
+  }
+  main #contact .contact .container .contact-full .contact-content p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+
+/* start media css  */
+
+/*# sourceMappingURL=figmaland.css.map */

@@ -1,0 +1,111 @@
+
+
+    // start header media
+
+@media only screen and (max-width: 1200px){
+   header{
+    .navigation-bar{
+        .container{
+            .navig-bar{
+            justify-content: space-between;
+                .navbar{
+                    nav{
+                        .menu-list{
+                            .menu-list-item{
+                                margin-left: 18px;
+                            }
+                        }
+                    }
+                    .logo{
+                        .logo-size{
+                        width: 160px;
+                        }
+                    }
+                }
+                .social{
+                    .social-list{
+                        .social-list-item{
+                            svg{
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 992px){
+header{
+    .navigation-bar{
+        .container{
+            .navig-bar{
+                .navbar{
+                    nav{
+                        display: none;
+                    }
+                    .logo{
+                        margin-left: 0;
+                    }
+                }
+                
+                .social{
+                    display: none;
+                }
+                .resp-social{
+                    display: block;
+                }
+
+            }
+        }
+    }
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+    header{
+        .navigation-bar{
+            .container{
+                padding: 0 40px;
+                
+            .navig-bar{
+                justify-content: space-between;
+                    .navbar{
+                        .logo{
+                            .logo-size{
+                            width: 260px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        }
+
+
+
+}
+@media only screen and (max-width: 460px){
+    header{
+        .navigation-bar{
+            .container{
+                .navig-bar{
+                    .navbar{
+                        .logo{
+                            .logo-size{
+                            width: 160px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+      }
+}
+    // end header media

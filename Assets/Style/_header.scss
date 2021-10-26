@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800&display=swap');
+
+header{
+.navigation-bar{
+    position: fixed;
+    width: 100%;
+    height: 135px;
+    position: absolute;
+    .container{
+        .navig-bar{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 35px;
+            .navbar{        
+                display: flex;
+                align-items: center;
+                nav{
+                    .menu-list{
+                        @include cent;
+                        .menu-list-item{
+                            margin-left: 41px;
+                            transition: 0,4s;
+                            a{
+                            font-family: 'Fira Sans', sans-serif;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 28px;
+                            letter-spacing: 0.2px;
+                            text-align: center;
+                            color: $lightText;
+                            
+                            }
+                            :hover{
+                                color: #2091F9;
+                            }
+                        }
+                    }
+                }
+                .logo{
+                    margin-left: 45px;
+                .logo-size{
+                    width:186px;
+                .logo-img{
+                    img{
+                        width: 100%
+                    }
+                }
+                }
+            }
+            }
+            
+            .social{
+                .social-list{
+                    @include cent;
+                    .social-list-item{
+                        a{
+                            svg{
+                                margin-left: 32px;
+                                path{
+                                    transition: 0.5s;
+                                }
+                                &:hover{
+                                    .tvit{
+                                        fill: $lightBlue;
+                                    }
+                                    .fb{
+                                        fill:#3b5998 ;
+                                    }
+                                    .linkin{
+                                       fill: #0a66c2;
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+            .resp-social{
+                display: none;
+            }
+            .resp-nav{
+                position: absolute;
+                right: 0;
+                width: 100%;
+                top: 0;
+                display: none;
+                .resp-menu-list{
+                    background-color: $lightText;
+                    text-align: center;
+                    .resp-menu-list-item{
+                        border-bottom: 1px black solid;
+                        a{
+                            font-size: 98px;
+                            font-style: normal;
+                            font-weight: 600;
+                            letter-spacing: 1.2px;
+                            color: $bgvstext
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+

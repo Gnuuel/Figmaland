@@ -1,0 +1,81 @@
+
+@media only screen and (max-width: 992px){
+    // start footer media 
+footer{
+    .footer{
+        .container{
+            .footer-full{
+                .footer-card{
+                    width: 25%;
+                    .footer-list{
+                        font-size: 18px;
+                        .footer-list-item{
+                            margin-top: 10px;
+                            a{
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+                .footer-card4{
+                    width: 25%;
+                    .footer-card-information{
+                        .footer-card-information-list{
+                            .footer-card-information-list-item{
+                                p{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+   // end footer media 
+}
+
+
+
+@media only screen and (max-width: 768px){    
+    // start footer media 
+footer{
+    .footer{
+        .container{
+            padding: 0 60px;
+            .footer-full{
+                padding: 100px 0 100px 0;
+                .footer-card{
+                    width: 100%;
+                    margin-top: 80px;
+                    .footer-list{
+                        text-align: center;
+                        font-size: 26px;
+                        .footer-list-item{
+                            margin-top: 20px;
+                            a{
+                                font-size: 20px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+                .footer-card4{
+                    width: 100%;
+                    margin-top: 80px;
+                    .footer-card-social{
+                        .footer-card-social-list{
+                            @include cent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+   // end footer media 
+
+
+}
